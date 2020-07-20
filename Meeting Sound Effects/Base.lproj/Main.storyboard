@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Meeting_Sound_Effects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Jej-mY-WJ8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cpZ-qB-tRi">
+                                <rect key="frame" x="24" y="268.5" width="327" height="338.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="1DF-ia-bfJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="164.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMD-jc-T7x">
+                                                <rect key="frame" x="0.0" y="0.0" width="162" height="164.5"/>
+                                                <state key="normal" title="   Sad Trombone" image="sad_trombone">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sadtrombonePressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFf-Nv-a4Q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xw-aI-FFM">
+                                                <rect key="frame" x="165" y="0.0" width="162" height="164.5"/>
+                                                <state key="normal" title="   WC" image="WC-1">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="wcPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RLg-iI-7US"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="gBt-ag-cnk">
+                                        <rect key="frame" x="0.0" y="174.5" width="327" height="164"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPJ-IA-QmP">
+                                                <rect key="frame" x="0.0" y="0.0" width="162" height="164"/>
+                                                <state key="normal" title="   Ta Da" image="TaDaa">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tadaPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFH-Fz-sNZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3D-Gj-EdT">
+                                                <rect key="frame" x="165" y="0.0" width="162" height="164"/>
+                                                <state key="normal" title="   Ba Dum Tish" image="BaDumTish">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="badumtishPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5U-if-msC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017 © Diego Gagliardo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgq-nQ-34a">
+                                <rect key="frame" x="120" y="617" width="135" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5X0-Dv-1PL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zH8-fg-v46">
+                                <rect key="frame" x="16" y="238.5" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.329999999999998" id="gNZ-lO-1cx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.96852236989999996" green="0.96868795159999999" blue="0.96851199870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Jej-mY-WJ8" secondAttribute="bottom" constant="0.01" id="CPd-2i-37k"/>
+                            <constraint firstItem="zH8-fg-v46" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-85" id="HdP-pi-NUo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zH8-fg-v46" secondAttribute="trailing" constant="0.10000000000000001" id="KYL-Wh-A2l"/>
+                            <constraint firstAttribute="trailing" secondItem="cpZ-qB-tRi" secondAttribute="trailing" constant="24" id="Pjj-ZP-6wz"/>
+                            <constraint firstItem="zH8-fg-v46" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="0.10000000000000001" id="Xcv-1R-9NC"/>
+                            <constraint firstItem="cpZ-qB-tRi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="24" id="Xzl-xL-YBV"/>
+                            <constraint firstAttribute="trailing" secondItem="Jej-mY-WJ8" secondAttribute="trailing" constant="0.01" id="ee7-57-5yt"/>
+                            <constraint firstItem="cpZ-qB-tRi" firstAttribute="top" secondItem="zH8-fg-v46" secondAttribute="bottom" constant="10" id="kX2-Nm-JOj"/>
+                            <constraint firstItem="Mgq-nQ-34a" firstAttribute="top" secondItem="cpZ-qB-tRi" secondAttribute="bottom" constant="10" id="p6K-48-I8x"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mgq-nQ-34a" secondAttribute="bottom" constant="20" id="psQ-qF-p9T"/>
+                            <constraint firstItem="Mgq-nQ-34a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tgZ-bE-e93"/>
+                            <constraint firstItem="Jej-mY-WJ8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="0.01" id="umD-hk-Rhg"/>
+                            <constraint firstItem="Jej-mY-WJ8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yTh-lP-Ley"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="138.58695652173915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BaDumTish" width="356" height="381"/>
+        <image name="TaDaa" width="355.5" height="380.5"/>
+        <image name="WC-1" width="356" height="381"/>
+        <image name="background" width="720" height="1280"/>
+        <image name="sad_trombone" width="355" height="380.5"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</document>

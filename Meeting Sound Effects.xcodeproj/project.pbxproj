@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1D691A51EA7DAA200D05C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691A41EA7DAA200D05C5A /* AppDelegate.swift */; };
+		F1D691A71EA7DAA200D05C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691A61EA7DAA200D05C5A /* ViewController.swift */; };
+		F1D691AA1EA7DAA200D05C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D691A81EA7DAA200D05C5A /* Main.storyboard */; };
+		F1D691AC1EA7DAA200D05C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D691AB1EA7DAA200D05C5A /* Assets.xcassets */; };
+		F1D691AF1EA7DAA200D05C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D691AD1EA7DAA200D05C5A /* LaunchScreen.storyboard */; };
+		F1D691BA1EA7DAA200D05C5A /* Meeting_Sound_EffectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691B91EA7DAA200D05C5A /* Meeting_Sound_EffectsTests.swift */; };
+		F1D691C51EA7DAA200D05C5A /* Meeting_Sound_EffectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691C41EA7DAA200D05C5A /* Meeting_Sound_EffectsUITests.swift */; };
+		F1D691CA1EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F1D691C91EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App.app */; };
+		F1D691D01EA7DAA200D05C5A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D691CE1EA7DAA200D05C5A /* Interface.storyboard */; };
+		F1D691D21EA7DAA200D05C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D691D11EA7DAA200D05C5A /* Assets.xcassets */; };
+		F1D691D91EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1D691D81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1D691E01EA7DAA200D05C5A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691DF1EA7DAA200D05C5A /* InterfaceController.swift */; };
+		F1D691E21EA7DAA200D05C5A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691E11EA7DAA200D05C5A /* ExtensionDelegate.swift */; };
+		F1D691E41EA7DAA200D05C5A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691E31EA7DAA200D05C5A /* NotificationController.swift */; };
+		F1D691E61EA7DAA200D05C5A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D691E51EA7DAA200D05C5A /* ComplicationController.swift */; };
+		F1D691E81EA7DAA200D05C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D691E71EA7DAA200D05C5A /* Assets.xcassets */; };
+		F1D691FE1EA7DBDC00D05C5A /* ba-dum-tish.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D691FD1EA7DBDC00D05C5A /* ba-dum-tish.wav */; };
+		F1D691FF1EA7DBDC00D05C5A /* ba-dum-tish.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D691FD1EA7DBDC00D05C5A /* ba-dum-tish.wav */; };
+		F1D692001EA7DBDC00D05C5A /* ba-dum-tish.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D691FD1EA7DBDC00D05C5A /* ba-dum-tish.wav */; };
+		F1D692021EA7DBEB00D05C5A /* sad-trombone.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692011EA7DBEB00D05C5A /* sad-trombone.wav */; };
+		F1D692031EA7DBEB00D05C5A /* sad-trombone.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692011EA7DBEB00D05C5A /* sad-trombone.wav */; };
+		F1D692041EA7DBEB00D05C5A /* sad-trombone.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692011EA7DBEB00D05C5A /* sad-trombone.wav */; };
+		F1D692061EA7DBF400D05C5A /* TaDa.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692051EA7DBF400D05C5A /* TaDa.wav */; };
+		F1D692071EA7DBF400D05C5A /* TaDa.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692051EA7DBF400D05C5A /* TaDa.wav */; };
+		F1D692081EA7DBF400D05C5A /* TaDa.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692051EA7DBF400D05C5A /* TaDa.wav */; };
+		F1D6920A1EA7DBFC00D05C5A /* wc.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692091EA7DBFC00D05C5A /* wc.wav */; };
+		F1D6920B1EA7DBFC00D05C5A /* wc.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692091EA7DBFC00D05C5A /* wc.wav */; };
+		F1D6920C1EA7DBFC00D05C5A /* wc.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D692091EA7DBFC00D05C5A /* wc.wav */; };
+		F1E6816F24C5D52C00E7DF36 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F1E6816E24C5D52C00E7DF36 /* LICENSE */; };
+		F1E6817124C6091800E7DF36 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F1E6817024C6091800E7DF36 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1D691B61EA7DAA200D05C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D691991EA7DAA200D05C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D691A01EA7DAA200D05C5A;
+			remoteInfo = "Meeting Sound Effects";
+		};
+		F1D691C11EA7DAA200D05C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D691991EA7DAA200D05C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D691A01EA7DAA200D05C5A;
+			remoteInfo = "Meeting Sound Effects";
+		};
+		F1D691CB1EA7DAA200D05C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D691991EA7DAA200D05C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D691C81EA7DAA200D05C5A;
+			remoteInfo = "Meeting Sound Effects WatchKit App";
+		};
+		F1D691DA1EA7DAA200D05C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D691991EA7DAA200D05C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D691D71EA7DAA200D05C5A;
+			remoteInfo = "Meeting Sound Effects WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1D691EF1EA7DAA200D05C5A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F1D691D91EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691F31EA7DAA200D05C5A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F1D691CA1EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F1D691A11EA7DAA200D05C5A /* Meeting Sound Effects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting Sound Effects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D691A41EA7DAA200D05C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1D691A61EA7DAA200D05C5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1D691A91EA7DAA200D05C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D691AB1EA7DAA200D05C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D691AE1EA7DAA200D05C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1D691B01EA7DAA200D05C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D691B51EA7DAA200D05C5A /* Meeting Sound EffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meeting Sound EffectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D691B91EA7DAA200D05C5A /* Meeting_Sound_EffectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_Sound_EffectsTests.swift; sourceTree = "<group>"; };
+		F1D691BB1EA7DAA200D05C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D691C01EA7DAA200D05C5A /* Meeting Sound EffectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meeting Sound EffectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D691C41EA7DAA200D05C5A /* Meeting_Sound_EffectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_Sound_EffectsUITests.swift; sourceTree = "<group>"; };
+		F1D691C61EA7DAA200D05C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D691C91EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting Sound Effects WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D691CF1EA7DAA200D05C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F1D691D11EA7DAA200D05C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D691D31EA7DAA200D05C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D691D81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Meeting Sound Effects WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D691DE1EA7DAA200D05C5A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F1D691DF1EA7DAA200D05C5A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F1D691E11EA7DAA200D05C5A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F1D691E31EA7DAA200D05C5A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F1D691E51EA7DAA200D05C5A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F1D691E71EA7DAA200D05C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D691E91EA7DAA200D05C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D691FD1EA7DBDC00D05C5A /* ba-dum-tish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ba-dum-tish.wav"; sourceTree = "<group>"; };
+		F1D692011EA7DBEB00D05C5A /* sad-trombone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sad-trombone.wav"; sourceTree = "<group>"; };
+		F1D692051EA7DBF400D05C5A /* TaDa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TaDa.wav; sourceTree = "<group>"; };
+		F1D692091EA7DBFC00D05C5A /* wc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wc.wav; sourceTree = "<group>"; };
+		F1E6816E24C5D52C00E7DF36 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F1E6817024C6091800E7DF36 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D6919E1EA7DAA200D05C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691B21EA7DAA200D05C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691BD1EA7DAA200D05C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691D51EA7DAA200D05C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1D691981EA7DAA200D05C5A = {
+			isa = PBXGroup;
+			children = (
+				F1E6816E24C5D52C00E7DF36 /* LICENSE */,
+				F1E6817024C6091800E7DF36 /* README.md */,
+				F1D691A31EA7DAA200D05C5A /* Meeting Sound Effects */,
+				F1D691B81EA7DAA200D05C5A /* Meeting Sound EffectsTests */,
+				F1D691C31EA7DAA200D05C5A /* Meeting Sound EffectsUITests */,
+				F1D691CD1EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App */,
+				F1D691DC1EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension */,
+				F1D691A21EA7DAA200D05C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D691A21EA7DAA200D05C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691A11EA7DAA200D05C5A /* Meeting Sound Effects.app */,
+				F1D691B51EA7DAA200D05C5A /* Meeting Sound EffectsTests.xctest */,
+				F1D691C01EA7DAA200D05C5A /* Meeting Sound EffectsUITests.xctest */,
+				F1D691C91EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App.app */,
+				F1D691D81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D691A31EA7DAA200D05C5A /* Meeting Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691A41EA7DAA200D05C5A /* AppDelegate.swift */,
+				F1D691A61EA7DAA200D05C5A /* ViewController.swift */,
+				F1D691A81EA7DAA200D05C5A /* Main.storyboard */,
+				F1D691AB1EA7DAA200D05C5A /* Assets.xcassets */,
+				F1D691AD1EA7DAA200D05C5A /* LaunchScreen.storyboard */,
+				F1D691B01EA7DAA200D05C5A /* Info.plist */,
+			);
+			path = "Meeting Sound Effects";
+			sourceTree = "<group>";
+		};
+		F1D691B81EA7DAA200D05C5A /* Meeting Sound EffectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691B91EA7DAA200D05C5A /* Meeting_Sound_EffectsTests.swift */,
+				F1D691BB1EA7DAA200D05C5A /* Info.plist */,
+			);
+			path = "Meeting Sound EffectsTests";
+			sourceTree = "<group>";
+		};
+		F1D691C31EA7DAA200D05C5A /* Meeting Sound EffectsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691C41EA7DAA200D05C5A /* Meeting_Sound_EffectsUITests.swift */,
+				F1D691C61EA7DAA200D05C5A /* Info.plist */,
+			);
+			path = "Meeting Sound EffectsUITests";
+			sourceTree = "<group>";
+		};
+		F1D691CD1EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691CE1EA7DAA200D05C5A /* Interface.storyboard */,
+				F1D691FD1EA7DBDC00D05C5A /* ba-dum-tish.wav */,
+				F1D692011EA7DBEB00D05C5A /* sad-trombone.wav */,
+				F1D692051EA7DBF400D05C5A /* TaDa.wav */,
+				F1D692091EA7DBFC00D05C5A /* wc.wav */,
+				F1D691D11EA7DAA200D05C5A /* Assets.xcassets */,
+				F1D691D31EA7DAA200D05C5A /* Info.plist */,
+			);
+			path = "Meeting Sound Effects WatchKit App";
+			sourceTree = "<group>";
+		};
+		F1D691DC1EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691DF1EA7DAA200D05C5A /* InterfaceController.swift */,
+				F1D691E11EA7DAA200D05C5A /* ExtensionDelegate.swift */,
+				F1D691E31EA7DAA200D05C5A /* NotificationController.swift */,
+				F1D691E51EA7DAA200D05C5A /* ComplicationController.swift */,
+				F1D691E71EA7DAA200D05C5A /* Assets.xcassets */,
+				F1D691E91EA7DAA200D05C5A /* Info.plist */,
+				F1D691DD1EA7DAA200D05C5A /* Supporting Files */,
+			);
+			path = "Meeting Sound Effects WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F1D691DD1EA7DAA200D05C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691DE1EA7DAA200D05C5A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1D691A01EA7DAA200D05C5A /* Meeting Sound Effects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D691F41EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound Effects" */;
+			buildPhases = (
+				F1D6919D1EA7DAA200D05C5A /* Sources */,
+				F1D6919E1EA7DAA200D05C5A /* Frameworks */,
+				F1D6919F1EA7DAA200D05C5A /* Resources */,
+				F1D691F31EA7DAA200D05C5A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D691CC1EA7DAA200D05C5A /* PBXTargetDependency */,
+			);
+			name = "Meeting Sound Effects";
+			productName = "Meeting Sound Effects";
+			productReference = F1D691A11EA7DAA200D05C5A /* Meeting Sound Effects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1D691B41EA7DAA200D05C5A /* Meeting Sound EffectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D691F71EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound EffectsTests" */;
+			buildPhases = (
+				F1D691B11EA7DAA200D05C5A /* Sources */,
+				F1D691B21EA7DAA200D05C5A /* Frameworks */,
+				F1D691B31EA7DAA200D05C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D691B71EA7DAA200D05C5A /* PBXTargetDependency */,
+			);
+			name = "Meeting Sound EffectsTests";
+			productName = "Meeting Sound EffectsTests";
+			productReference = F1D691B51EA7DAA200D05C5A /* Meeting Sound EffectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1D691BF1EA7DAA200D05C5A /* Meeting Sound EffectsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D691FA1EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound EffectsUITests" */;
+			buildPhases = (
+				F1D691BC1EA7DAA200D05C5A /* Sources */,
+				F1D691BD1EA7DAA200D05C5A /* Frameworks */,
+				F1D691BE1EA7DAA200D05C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D691C21EA7DAA200D05C5A /* PBXTargetDependency */,
+			);
+			name = "Meeting Sound EffectsUITests";
+			productName = "Meeting Sound EffectsUITests";
+			productReference = F1D691C01EA7DAA200D05C5A /* Meeting Sound EffectsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F1D691C81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D691F01EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound Effects WatchKit App" */;
+			buildPhases = (
+				F1D691C71EA7DAA200D05C5A /* Resources */,
+				F1D691EF1EA7DAA200D05C5A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D691DB1EA7DAA200D05C5A /* PBXTargetDependency */,
+			);
+			name = "Meeting Sound Effects WatchKit App";
+			productName = "Meeting Sound Effects WatchKit App";
+			productReference = F1D691C91EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F1D691D71EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D691EC1EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound Effects WatchKit Extension" */;
+			buildPhases = (
+				F1D691D41EA7DAA200D05C5A /* Sources */,
+				F1D691D51EA7DAA200D05C5A /* Frameworks */,
+				F1D691D61EA7DAA200D05C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meeting Sound Effects WatchKit Extension";
+			productName = "Meeting Sound Effects WatchKit Extension";
+			productReference = F1D691D81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D691991EA7DAA200D05C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = gagliardo;
+				TargetAttributes = {
+					F1D691A01EA7DAA200D05C5A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8W24442848;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F1D691B41EA7DAA200D05C5A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8W24442848;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1D691A01EA7DAA200D05C5A;
+					};
+					F1D691BF1EA7DAA200D05C5A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8W24442848;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1D691A01EA7DAA200D05C5A;
+					};
+					F1D691C81EA7DAA200D05C5A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8W24442848;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F1D691D71EA7DAA200D05C5A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8W24442848;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1D6919C1EA7DAA200D05C5A /* Build configuration list for PBXProject "Meeting Sound Effects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D691981EA7DAA200D05C5A;
+			productRefGroup = F1D691A21EA7DAA200D05C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D691A01EA7DAA200D05C5A /* Meeting Sound Effects */,
+				F1D691B41EA7DAA200D05C5A /* Meeting Sound EffectsTests */,
+				F1D691BF1EA7DAA200D05C5A /* Meeting Sound EffectsUITests */,
+				F1D691C81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App */,
+				F1D691D71EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D6919F1EA7DAA200D05C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6920A1EA7DBFC00D05C5A /* wc.wav in Resources */,
+				F1D691AF1EA7DAA200D05C5A /* LaunchScreen.storyboard in Resources */,
+				F1E6816F24C5D52C00E7DF36 /* LICENSE in Resources */,
+				F1D692021EA7DBEB00D05C5A /* sad-trombone.wav in Resources */,
+				F1D691AC1EA7DAA200D05C5A /* Assets.xcassets in Resources */,
+				F1D691FE1EA7DBDC00D05C5A /* ba-dum-tish.wav in Resources */,
+				F1E6817124C6091800E7DF36 /* README.md in Resources */,
+				F1D692061EA7DBF400D05C5A /* TaDa.wav in Resources */,
+				F1D691AA1EA7DAA200D05C5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691B31EA7DAA200D05C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691BE1EA7DAA200D05C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691C71EA7DAA200D05C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D691FF1EA7DBDC00D05C5A /* ba-dum-tish.wav in Resources */,
+				F1D692071EA7DBF400D05C5A /* TaDa.wav in Resources */,
+				F1D691D21EA7DAA200D05C5A /* Assets.xcassets in Resources */,
+				F1D691D01EA7DAA200D05C5A /* Interface.storyboard in Resources */,
+				F1D6920B1EA7DBFC00D05C5A /* wc.wav in Resources */,
+				F1D692031EA7DBEB00D05C5A /* sad-trombone.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691D61EA7DAA200D05C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D6920C1EA7DBFC00D05C5A /* wc.wav in Resources */,
+				F1D692001EA7DBDC00D05C5A /* ba-dum-tish.wav in Resources */,
+				F1D691E81EA7DAA200D05C5A /* Assets.xcassets in Resources */,
+				F1D692081EA7DBF400D05C5A /* TaDa.wav in Resources */,
+				F1D692041EA7DBEB00D05C5A /* sad-trombone.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D6919D1EA7DAA200D05C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D691A71EA7DAA200D05C5A /* ViewController.swift in Sources */,
+				F1D691A51EA7DAA200D05C5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691B11EA7DAA200D05C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D691BA1EA7DAA200D05C5A /* Meeting_Sound_EffectsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691BC1EA7DAA200D05C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D691C51EA7DAA200D05C5A /* Meeting_Sound_EffectsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D691D41EA7DAA200D05C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D691E41EA7DAA200D05C5A /* NotificationController.swift in Sources */,
+				F1D691E61EA7DAA200D05C5A /* ComplicationController.swift in Sources */,
+				F1D691E21EA7DAA200D05C5A /* ExtensionDelegate.swift in Sources */,
+				F1D691E01EA7DAA200D05C5A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1D691B71EA7DAA200D05C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D691A01EA7DAA200D05C5A /* Meeting Sound Effects */;
+			targetProxy = F1D691B61EA7DAA200D05C5A /* PBXContainerItemProxy */;
+		};
+		F1D691C21EA7DAA200D05C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D691A01EA7DAA200D05C5A /* Meeting Sound Effects */;
+			targetProxy = F1D691C11EA7DAA200D05C5A /* PBXContainerItemProxy */;
+		};
+		F1D691CC1EA7DAA200D05C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D691C81EA7DAA200D05C5A /* Meeting Sound Effects WatchKit App */;
+			targetProxy = F1D691CB1EA7DAA200D05C5A /* PBXContainerItemProxy */;
+		};
+		F1D691DB1EA7DAA200D05C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D691D71EA7DAA200D05C5A /* Meeting Sound Effects WatchKit Extension */;
+			targetProxy = F1D691DA1EA7DAA200D05C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1D691A81EA7DAA200D05C5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D691A91EA7DAA200D05C5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D691AD1EA7DAA200D05C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D691AE1EA7DAA200D05C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D691CE1EA7DAA200D05C5A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D691CF1EA7DAA200D05C5A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1D691EA1EA7DAA200D05C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1D691EB1EA7DAA200D05C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D691ED1EA7DAA200D05C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound Effects WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-Effects.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F1D691EE1EA7DAA200D05C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound Effects WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-Effects.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F1D691F11EA7DAA200D05C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W24442848;
+				IBSC_MODULE = Meeting_Sound_Effects_WatchKit_Extension;
+				INFOPLIST_FILE = "Meeting Sound Effects WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-Effects.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F1D691F21EA7DAA200D05C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W24442848;
+				IBSC_MODULE = Meeting_Sound_Effects_WatchKit_Extension;
+				INFOPLIST_FILE = "Meeting Sound Effects WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-Effects.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F1D691F51EA7DAA200D05C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound Effects/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-Effects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1D691F61EA7DAA200D05C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound Effects/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-Effects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F1D691F81EA7DAA200D05C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound EffectsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-EffectsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeting Sound Effects.app/Meeting Sound Effects";
+			};
+			name = Debug;
+		};
+		F1D691F91EA7DAA200D05C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound EffectsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-EffectsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeting Sound Effects.app/Meeting Sound Effects";
+			};
+			name = Release;
+		};
+		F1D691FB1EA7DAA200D05C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound EffectsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-EffectsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Meeting Sound Effects";
+			};
+			name = Debug;
+		};
+		F1D691FC1EA7DAA200D05C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8W24442848;
+				INFOPLIST_FILE = "Meeting Sound EffectsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gagliardo.Meeting-Sound-EffectsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Meeting Sound Effects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D6919C1EA7DAA200D05C5A /* Build configuration list for PBXProject "Meeting Sound Effects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D691EA1EA7DAA200D05C5A /* Debug */,
+				F1D691EB1EA7DAA200D05C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D691EC1EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound Effects WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D691ED1EA7DAA200D05C5A /* Debug */,
+				F1D691EE1EA7DAA200D05C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D691F01EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound Effects WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D691F11EA7DAA200D05C5A /* Debug */,
+				F1D691F21EA7DAA200D05C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D691F41EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound Effects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D691F51EA7DAA200D05C5A /* Debug */,
+				F1D691F61EA7DAA200D05C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D691F71EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound EffectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D691F81EA7DAA200D05C5A /* Debug */,
+				F1D691F91EA7DAA200D05C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D691FA1EA7DAA200D05C5A /* Build configuration list for PBXNativeTarget "Meeting Sound EffectsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D691FB1EA7DAA200D05C5A /* Debug */,
+				F1D691FC1EA7DAA200D05C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D691991EA7DAA200D05C5A /* Project object */;
+}
