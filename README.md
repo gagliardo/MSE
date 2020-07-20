@@ -10,5 +10,3 @@ And if you are not allowed to use your iPhone in meetings, no worries, you can u
 
 **Remember: Use the app responsibly, where permitted. I won’t be responsible for your firing.**
 
-**Note**: This is a stupid app, I know... it could be funny for few seconds, but it was my first (and maybe last) iOS app, and I'm not a developer, so if you want to complain abouth things like code style or basic feature stack, pls email to /dev/null@caronte.net
-thank you! :-)
